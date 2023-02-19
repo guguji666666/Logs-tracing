@@ -1,4 +1,4 @@
-# Tracinglogs
+# Guidance to capture different tracing logs
 
 ## Capture HAR logs in Edge/Chrome
 

@@ -1,6 +1,6 @@
 # Tracinglogs
 
-## Capture HAR logs in web browser
+## Capture HAR logs in Edge/Chrome
 
 #### 1. Launch the Edge/chrome browser
 #### 2. From the menu, select `... -> More tools -> Developer Tools`.(or press `F12` directly)
@@ -17,3 +17,10 @@ Select the same filled square button to stop recording the session
 
 #### 6. Select the `"Export HAR..."` button to export the recorded session to a HAR file. The button looks like an arrow pointing downwards to a horizontal line.
 ![image](https://user-images.githubusercontent.com/96930989/212235965-a384ebf9-63a9-441a-9f64-9f83ca58c5ad.png)
+
+
+
+## Capture tracing logs in Fiddler
+
+
+## Capture tracing logs in network monitor

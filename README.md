@@ -1,4 +1,4 @@
-# Guidance to capture different tracing logs
+# Capture different network tracing logs
 
 ## Capture HAR logs in Edge/Chrome
 
@@ -21,6 +21,30 @@ Select the same filled square button to stop recording the session
 
 
 ## Capture tracing logs in Fiddler
+#### 1. Install the [Fiddler Classic tool](http://www.telerik.com/download/fiddler). This tool will detect the traffic from your computer to the external websites.
+![image](https://user-images.githubusercontent.com/96930989/227168245-119b143e-cb3a-4f1e-b333-679b1c2b7d23.png)
 
+#### 2. Once you install the fiddler you need to perform the below-mentioned steps:
+1.	Go to START button
+2.	Click on Fiddler 4 
+3.	Click on Tools > Options
+![image](https://user-images.githubusercontent.com/96930989/227168418-ea792ab4-10cd-49de-93cf-cafd47fefa3b.png)
+4.	Click HTTPS Tab        
+5.	Check the Box Against Capture HTTPS CONNECTs and Decrypt HTTPS traffic
+![image](https://user-images.githubusercontent.com/96930989/227168518-b7ccd9e7-a969-46b9-a696-d94a32b1dc4e.png)
+
+6.	Click on YES
+![image](https://user-images.githubusercontent.com/96930989/227168593-04f7fee2-562b-471e-9216-17c62915828f.png)
+
+7.	 Click on YES   
+![image](https://user-images.githubusercontent.com/96930989/227168640-8fc2d7fb-9825-4706-901b-2f4b21dab3b0.png)
+
+8.	Click on protocols and add tls1.1 and tls1.2
+![image](https://user-images.githubusercontent.com/96930989/227168699-3786939b-8168-47e0-9389-c0bd3cd39962.png)
+
+![image](https://user-images.githubusercontent.com/96930989/227168717-e3d0886c-4269-4358-b943-7b067bf6c15b.png)
+
+9.	Reproduce the issue and capture the behavior two or three times
+10.	Once done, click on File->Save->Save All session->Give it a Name and save it.
 
 ## Capture tracing logs in network monitor

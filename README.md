@@ -1,6 +1,6 @@
 # Capture different network tracing logs
 
-## Capture HAR logs in Edge/Chrome
+## 1. Capture HAR logs in Edge/Chrome
 
 #### 1. Launch the Edge/chrome browser
 #### 2. From the menu, select `... -> More tools -> Developer Tools`.(or press `F12` directly)
@@ -20,7 +20,7 @@ Select the same filled square button to stop recording the session
 
 
 
-## Capture tracing logs in Fiddler
+## 2. Capture tracing logs in Fiddler
 #### Install the [Fiddler Classic tool](http://www.telerik.com/download/fiddler). This tool will detect the traffic from your computer to the external websites.
 ![image](https://user-images.githubusercontent.com/96930989/227168245-119b143e-cb3a-4f1e-b333-679b1c2b7d23.png)
 
@@ -47,4 +47,4 @@ Select the same filled square button to stop recording the session
 ##### 9. Reproduce the issue and capture the behavior two or three times
 ##### 10. Once done, click on File-> Save->Save All session-> Give it a Name and save it.
 
-## Capture tracing logs in network monitor
+## 3. Capture tracing logs in network monitor

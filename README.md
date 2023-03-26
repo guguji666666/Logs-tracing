@@ -20,7 +20,7 @@ Select the same filled square button to stop recording the session
 
 
 
-## 2. Capture tracing logs in Fiddler
+## 2. Capture tracing logs in Fiddler (Windows)
 #### Install the [Fiddler Classic tool](http://www.telerik.com/download/fiddler). This tool will detect the traffic from your computer to the external websites.
 ![image](https://user-images.githubusercontent.com/96930989/227784190-16f3cb11-8822-4b3d-bfcd-09bd6ba29b1e.png)
 

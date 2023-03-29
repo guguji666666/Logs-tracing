@@ -1,6 +1,6 @@
 # Capture different network tracing logs
 
-## 1. Capture HAR logs in Edge/Chrome
+## 1. Capture har logs in Edge/Chrome
 
 #### 1. Launch the Edge/chrome browser
 #### 2. From the menu, select `... -> More tools -> Developer Tools`.(or press `F12` directly)

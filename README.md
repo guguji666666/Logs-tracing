@@ -48,3 +48,15 @@ Select the same filled square button to stop recording the session
 ##### 10. Once done, click on File-> Save->Save All session-> Give it a Name and save it.
 
 ## 3. Capture tracing logs in network monitor
+
+## 4. Capture Windows update logs
+
+Run powershell commands
+```powershell
+Get-WindowsUpdateLog
+```
+<img width="702" alt="image" src="https://user-images.githubusercontent.com/96930989/233538875-22b3e56b-155f-4b7e-a949-ff8ec066bf37.png">
+
+<img width="964" alt="image" src="https://user-images.githubusercontent.com/96930989/233538942-32e38838-6737-4364-b0f5-6251d092a1ca.png">
+
+<img width="1022" alt="image" src="https://user-images.githubusercontent.com/96930989/233539001-05fe603d-4097-43b6-8c63-994b36adeb5b.png">

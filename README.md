@@ -51,7 +51,7 @@ Select the same filled square button to stop recording the session
 
 ## 4. Capture Windows update logs
 
-Run powershell commands
+Run powershell command
 ```powershell
 Get-WindowsUpdateLog
 ```

@@ -49,7 +49,9 @@ Select the same filled square button to stop recording the session
 
 ## 3. Capture tracing logs in network monitor
 
-## 4. Capture Windows update logs
+# Capture local logs from Windows machine
+
+## 1. Capture Windows update logs
 
 Run powershell command
 ```powershell
@@ -60,3 +62,35 @@ Get-WindowsUpdateLog
 <img width="964" alt="image" src="https://user-images.githubusercontent.com/96930989/233538942-32e38838-6737-4364-b0f5-6251d092a1ca.png">
 
 <img width="1022" alt="image" src="https://user-images.githubusercontent.com/96930989/233539001-05fe603d-4097-43b6-8c63-994b36adeb5b.png">
+
+## 2. Capture Arc machine related logs
+
+Create folder `temp` under disk C
+
+Launch cmd as admin
+
+run command
+```sh
+cd "c:\temp"
+```
+
+```sh
+azcmagent logs --full
+```
+
+This will gather log files from the following locations
+
+```
+%ProgramData%\AzureConnectedMachineAgent\Log\
+%ProgramData%\GuestConfig\arc_policy_logs\
+%ProgramData%\GuestConfig\ext_mgr_logs\
+%ProgramData%\GuestConfig\extension_logs\
+%ProgramData%\GuestConfig\extension_reports\
+C:\Packages\Plugins\
+```
+
+The logs will be sent to path `c:\temp` in a file named 'azcmagent-logs-datetime-vmname.zip'
+
+## 3. Capture Defender logs
+
+

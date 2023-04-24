@@ -91,6 +91,15 @@ C:\Packages\Plugins\
 
 The logs will be sent to path `c:\temp` in a file named 'azcmagent-logs-datetime-vmname.zip'
 
+![image](https://user-images.githubusercontent.com/96930989/233914433-e6028bf4-23ce-4022-a32a-2724b0185fcb.png)
+
+![image](https://user-images.githubusercontent.com/96930989/233914543-fd878455-92d5-48e5-b269-f4f221bcfa20.png)
+
+We can also additionally gather the following Windows Event Logs if this is a Windows server (and if these Event logs exist - as this is dependent on the extension type being installed).
+* Application
+* System
+* Operations Manager (if the problem is with the Log Analytics/MMA or Dependency agent extensions
+
 ## 3. Capture Defender logs
 
 

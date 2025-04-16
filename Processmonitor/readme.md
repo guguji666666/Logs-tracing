@@ -1,5 +1,8 @@
 # Capture logs with Process monitor 
-## [Download process monitor](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
+## 1. [Download process monitor](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
+## 2. Run `Process monitor`
+
+
 ## 1. LDAP logs
 ```powershell
 # Add a custom event log source (run as Administrator once)

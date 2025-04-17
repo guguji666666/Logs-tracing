@@ -3,7 +3,8 @@
 ## 2. Run `Process monitor`
 
 
-## 1. LDAP logs
+## 1. Capture LDAP events' relating logs
+### Run powershell script below to genrate LDAP events
 ```powershell
 # Add a custom event log source (run as Administrator once)
 if (-not [System.Diagnostics.EventLog]::SourceExists("MyLDAPScript")) {

@@ -4,6 +4,23 @@
 
 
 ## 1. Capture LDAP events' relating logs
+### Set the filter in process monitor
+![image](https://github.com/user-attachments/assets/aeedb5a3-2ef6-4c2b-8205-71ef8aed8968)
+
+```
+:ldap
+```
+![image](https://github.com/user-attachments/assets/8857d58e-84f5-4eeb-9dd9-af1dc815cdb3)
+
+![image](https://github.com/user-attachments/assets/3bf22dc8-bbc3-4d83-9910-8379b79ec23a)
+
+### Restrict the size of each log file
+![image](https://github.com/user-attachments/assets/a7a585b3-f802-4f9e-9ae7-d46b26b7f0a1)
+
+Set the MAX. size of each log, once the size is reached the old log will be replaced with new one <br>
+![image](https://github.com/user-attachments/assets/24655d8c-15b9-457d-a892-49b1151af058)
+
+
 ### Run powershell script below to genrate LDAP events
 ```powershell
 # Add a custom event log source (run as Administrator once)

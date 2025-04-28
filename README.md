@@ -50,7 +50,12 @@ Select the same filled square button to stop recording the session <br>
 
 ## 3. Capture tracing logs in network monitor
 #### 1. Downlaod and install [Microsoft Network Monitor](https://www.microsoft.com/en-us/download/details.aspx?id=4865)
-#### 2. Res
+#### 2. Launch network monitor as `administrator`
+![image](https://github.com/user-attachments/assets/0f52568b-0eca-4cea-b49f-e3eec10a452d)
+#### 3. Start log capturing by clicking `New Capture`
+![image](https://github.com/user-attachments/assets/bf8111e4-9b0c-4186-b28d-8b5d49e3643f)
+#### 4. Reproduce the issue while keep network monitor running
+#### 5. 
 
 # Capture local logs from Windows machine
 

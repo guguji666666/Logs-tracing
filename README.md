@@ -49,6 +49,8 @@ Select the same filled square button to stop recording the session <br>
 ##### 10. Once done, click on File-> Save->Save All session-> Give it a Name and save it.
 
 ## 3. Capture tracing logs in network monitor
+#### 1. Downlaod and install [Microsoft Network Monitor](https://www.microsoft.com/en-us/download/details.aspx?id=4865)
+#### 2. Res
 
 # Capture local logs from Windows machine
 

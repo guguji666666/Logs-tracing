@@ -54,8 +54,12 @@ Select the same filled square button to stop recording the session <br>
 ![image](https://github.com/user-attachments/assets/0f52568b-0eca-4cea-b49f-e3eec10a452d)
 #### 3. Start log capturing by clicking `New Capture`
 ![image](https://github.com/user-attachments/assets/bf8111e4-9b0c-4186-b28d-8b5d49e3643f)
-#### 4. Reproduce the issue while keep network monitor running
-#### 5. 
+#### 4. Click `Start` button` and reproduce the issue
+![image](https://github.com/user-attachments/assets/d8a3b973-cf42-4947-9d92-ab8f5806eb4b)
+#### 5. Click `Stop` button when issue is reproduced
+![image](https://github.com/user-attachments/assets/5340bea6-c621-4f48-a34c-5de8e6936879)
+#### 6. Save the log
+![image](https://github.com/user-attachments/assets/8634e327-46a3-4aa6-877a-159323141cf9)
 
 # Capture local logs from Windows machine
 

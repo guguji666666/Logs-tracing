@@ -1,7 +1,5 @@
 # 🧭 Capture Different Network Tracing Logs
 
----
-
 ## 🌐 1. Capture HAR Logs in Edge/Chrome
 
 ### 🧩 Step-by-Step:

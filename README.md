@@ -134,7 +134,4 @@ C:\Packages\Plugins\
 ---
 
 ## 🛡️ 3. Capture Defender Logs
-
-⚠️（此部分尚未补充，若您提供更多内容或指令，我可协助完成补全）
-
 ---

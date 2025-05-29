@@ -131,6 +131,18 @@ C:\Packages\Plugins\
 * System
 * Operations Manager (if related to Log Analytics or Dependency Agent)
 
+```powershell
+$logs = @("Application", "System", "Operations Manager")
+foreach ($log in $logs) {
+    $output = "C:\temp\$log.evtx"
+    wevtutil epl $log $output
+    Write-Output "Exported $log log to $output"
+}
+```
+✔️ This will export:
+* Application log → C:\temp\Application.evtx
+* System log → C:\temp\System.evtx
+* Operations Manager log (if exists) → C:\temp\Operations Manager.evtx
 ---
 
 ## 🛡️ 3. Capture Defender Logs

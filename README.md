@@ -218,8 +218,10 @@ foreach ($log in $logs) {
 Get-WindowsUpdateLog
 ```
 
-<img width="702" alt="UpdateLog1" src="https://user-images.githubusercontent.com/96930989/233538875-22b3e56b-155f-4b7e-a949-ff8ec066bf37.png">  
+<img width="702" alt="UpdateLog1" src="https://user-images.githubusercontent.com/96930989/233538875-22b3e56b-155f-4b7e-a949-ff8ec066bf37.png"> 
+
 <img width="964" alt="UpdateLog2" src="https://user-images.githubusercontent.com/96930989/233538942-32e38838-6737-4364-b0f5-6251d092a1ca.png">  
+
 <img width="1022" alt="UpdateLog3" src="https://user-images.githubusercontent.com/96930989/233539001-05fe603d-4097-43b6-8c63-994b36adeb5b.png">
 
 ---
@@ -236,6 +238,7 @@ azcmagent logs --full
 
 📁 日志将保存在 `C:\temp\azcmagent-logs-<datetime>-<vmname>.zip`
 ![LogZip1](https://user-images.githubusercontent.com/96930989/233914433-e6028bf4-23ce-4022-a32a-2724b0185fcb.png)
+
 ![LogZip2](https://user-images.githubusercontent.com/96930989/233914543-fd878455-92d5-48e5-b269-f4f221bcfa20.png)
 
 ### 📝（可选）收集事件日志

@@ -172,40 +172,42 @@ foreach ($log in $logs) {
 
 ### 📥 下载地址：
 
-* [Fiddler Classic](http://www.telerik.com/download/fiddler)
+* [Fiddler Classic](http://www.telerik.com/download/fiddler) <br>
   ![Fiddler](https://user-images.githubusercontent.com/96930989/227784190-16f3cb11-8822-4b3d-bfcd-09bd6ba29b1e.png)
 
 ### ⚙️ 配置步骤：
 
-1. 打开 **Fiddler 4**
-2. 点击菜单栏 `Tools > Options`
+1. 打开 **Fiddler 4** <br>
+2. 点击菜单栏 `Tools > Options` <br>
    ![Options](https://user-images.githubusercontent.com/96930989/227168418-ea792ab4-10cd-49de-93cf-cafd47fefa3b.png)
-3. 选择 **HTTPS** 标签页
-4. 勾选 `Capture HTTPS CONNECTs` 和 `Decrypt HTTPS traffic`
+3. 选择 **HTTPS** 标签页 <br>
+4. 勾选 `Capture HTTPS CONNECTs` 和 `Decrypt HTTPS traffic` <br>
    ![HTTPS Settings](https://user-images.githubusercontent.com/96930989/227168518-b7ccd9e7-a969-46b9-a696-d94a32b1dc4e.png)
-5. 接受证书提示
+5. 接受证书提示 <br>
    ![Confirm 1](https://user-images.githubusercontent.com/96930989/227168593-04f7fee2-562b-471e-9216-17c62915828f.png)
+   
    ![Confirm 2](https://user-images.githubusercontent.com/96930989/227168640-8fc2d7fb-9825-4706-901b-2f4b21dab3b0.png)
-6. 在 `Protocols` 中添加 `tls1.1` 和 `tls1.2`
+7. 在 `Protocols` 中添加 `tls1.1` 和 `tls1.2` <br>
    ![Protocols 1](https://user-images.githubusercontent.com/96930989/227168699-3786939b-8168-47e0-9389-c0bd3cd39962.png)
+   
    ![Protocols 2](https://user-images.githubusercontent.com/96930989/227168717-e3d0886c-4269-4358-b943-7b067bf6c15b.png)
-7. 重现问题 2–3 次
-8. 导出日志：点击 `File > Save > Save All Sessions`
+9. 重现问题 2–3 次 <br>
+10. 导出日志：点击 `File > Save > Save All Sessions` 
 
 ---
 
 ## 📡 3. 使用 Microsoft Network Monitor 捕获日志
 
-1. 下载并安装 [Microsoft Network Monitor](https://www.microsoft.com/en-us/download/details.aspx?id=4865)
-2. 以管理员身份运行
+1. 下载并安装 [Microsoft Network Monitor](https://www.microsoft.com/en-us/download/details.aspx?id=4865) <br>
+2. 以管理员身份运行 <br>
    ![Launch](https://github.com/user-attachments/assets/0f52568b-0eca-4cea-b49f-e3eec10a452d)
-3. 点击 `New Capture`
+3. 点击 `New Capture` <br>
    ![New Capture](https://github.com/user-attachments/assets/bf8111e4-9b0c-4186-b28d-8b5d49e3643f)
-4. 点击 `Start` 开始捕获，然后重现问题
+4. 点击 `Start` 开始捕获，然后重现问题 <br>
    ![Start Capture](https://github.com/user-attachments/assets/d8a3b973-cf42-4947-9d92-ab8f5806eb4b)
-5. 点击 `Stop` 停止捕获
+5. 点击 `Stop` 停止捕获 <br>
    ![Stop Capture](https://github.com/user-attachments/assets/5340bea6-c621-4f48-a34c-5de8e6936879)
-6. 点击保存按钮保存日志
+6. 点击保存按钮保存日志 <br>
    ![Save](https://github.com/user-attachments/assets/8634e327-46a3-4aa6-877a-159323141cf9)
 
 ---
@@ -228,15 +230,15 @@ Get-WindowsUpdateLog
 
 ## 🖥️ 2. 获取 Azure Arc 相关日志
 
-1. 创建文件夹 `C:\temp`
-2. 管理员权限运行命令行：
+### 1. 创建文件夹 `C:\temp`
+### 2. 管理员权限运行命令行：
 
 ```cmd
 cd C:\temp
 azcmagent logs --full
 ```
 
-📁 日志将保存在 `C:\temp\azcmagent-logs-<datetime>-<vmname>.zip`
+📁 日志将保存在 `C:\temp\azcmagent-logs-<datetime>-<vmname>.zip` <br>
 ![LogZip1](https://user-images.githubusercontent.com/96930989/233914433-e6028bf4-23ce-4022-a32a-2724b0185fcb.png)
 
 ![LogZip2](https://user-images.githubusercontent.com/96930989/233914543-fd878455-92d5-48e5-b269-f4f221bcfa20.png)

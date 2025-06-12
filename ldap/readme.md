@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/db70336c-776a-455e-a845-7b8df5dd1e20)# 📥 Capture LDAP Logs for Troubleshooting
+# 📥 Capture LDAP Logs for Troubleshooting
 
 This guide walks you through collecting LDAP-related logs using **Process Monitor** and **Network Trace (NMCap)** for deep-dive troubleshooting.
 

@@ -1,4 +1,4 @@
-# 📥 Capture LDAP Logs for Troubleshooting
+![image](https://github.com/user-attachments/assets/db70336c-776a-455e-a845-7b8df5dd1e20)# 📥 Capture LDAP Logs for Troubleshooting
 
 This guide walks you through collecting LDAP-related logs using **Process Monitor** and **Network Trace (NMCap)** for deep-dive troubleshooting.
 
@@ -13,12 +13,16 @@ This guide walks you through collecting LDAP-related logs using **Process Monito
 ### Step 3: Configure Filters to Capture LDAP Events
 
 * Open the **Filter** settings in Process Monitor.
-* Add a filter keyword for `ldap` to capture relevant traffic.
+* Add a filter keyword for `:ldap` to capture relevant traffic.
+* Add a filter keyword for `msft-gc` to capture relevant traffic.
 
 ![Procmon LDAP Filter](https://github.com/user-attachments/assets/aeedb5a3-2ef6-4c2b-8205-71ef8aed8968)
 
 ```
 :ldap
+```
+```
+msft-gc
 ```
 
 Example filter view:
@@ -28,6 +32,9 @@ Example filter view:
 Result preview:
 
 ![Procmon Results](https://github.com/user-attachments/assets/3bf22dc8-bbc3-4d83-9910-8379b79ec23a)
+
+![image](https://github.com/user-attachments/assets/95fdaf6a-71a8-4af6-b7c7-82d6e24b2fc2)
+
 
 ---
 
@@ -155,12 +162,16 @@ Once the issue is reproduced:
 ### 步骤 3：设置过滤器，捕获与 LDAP 相关的事件
 
 * 打开菜单 **Filter > Filter...**
-* 添加过滤关键字 `ldap`，用于匹配相关操作
+* 添加过滤关键字 `ldap` 和 `msft-gc`，用于匹配相关操作
 
 ![Procmon LDAP Filter](https://github.com/user-attachments/assets/aeedb5a3-2ef6-4c2b-8205-71ef8aed8968)
 
 ```
 :ldap
+```
+
+```
+msft-gc
 ```
 
 过滤设置示例：
@@ -170,6 +181,8 @@ Once the issue is reproduced:
 匹配结果示例：
 
 ![Procmon Results](https://github.com/user-attachments/assets/3bf22dc8-bbc3-4d83-9910-8379b79ec23a)
+
+![image](https://github.com/user-attachments/assets/7e5f0558-1543-4783-bf0e-855f7f1d3290)
 
 ---
 
